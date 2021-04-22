@@ -1,0 +1,15 @@
+.borderbox{
+    padding:50px;
+  }
+.fa-check-circle{
+    font-size:60pt;
+}
+h5{
+    color:rgba(1,1,1,0.6);
+}
+.successmessage{
+    color:#198754;
+}
+.failureheading{
+    color:tomato;
+}

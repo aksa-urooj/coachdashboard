@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: calibri;
+}
+.heading {
+  letter-spacing: -0.02em;
+}
+.mainheading {
+  color: rgba(1, 1, 1, 0.7);
+}
+.form-container {
+  padding: 10px;
+}
+
+.endblock {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: max-content;
+}
+
+.outblock {
+  padding: 0px !important;
+}
+
+.form-check-label {
+  margin: 0px !important;
+}
+.loginbtn {
+  width: 100% !important;
+}
+.logo {
+  width: 100px;
+  height: 70px;
+}
+.eyebtn {
+  border-style: solid !important;
+  border-color: #ced4da !important;
+  display: block;
+}
+.password-icon {
+  color: #95aac9 !important;
+}
+.dimtext {
+  color: #95aac9 !important;
+}
+
+#validationErrorMsg {
+  text-align: center;
+  padding: 7px !important;
+  display: none;
+  margin-bottom: 8px;
+}
