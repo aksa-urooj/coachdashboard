@@ -1,0 +1,142 @@
+table {
+  border-collapse: collapse;
+}
+.main-card {
+  background: #fff;
+}
+.card-header,
+.card-body {
+  padding: 1 rem;
+}
+.heading {
+  /*display: flex !important;*/
+  background: #f7f7f7;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header span {
+  background: #f7f7f7;
+}
+.card-header h2 {
+  background: #f7f7f7;
+}
+
+.card-header {
+  /*display: flex;
+  align-items: center;
+  justify-content: space-between;*/
+  border-bottom: 1px solid #f0f0f0;
+  background: #f7f7f7 !important;
+}
+@media only screen and (max-width: 369px) {
+  .cardheader-1 {
+    height: 80px;
+  }
+  .cardheader-1 button {
+    float: left !important;
+  }
+}
+
+@media only screen and (max-width: 276px) {
+  .cardheader-1 {
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .cardheader-2 {
+    height: 80px;
+  }
+  .cardheader-2 button {
+    float: left !important;
+  }
+}
+@media only screen and (max-width: 267px) {
+  .cardheader-2 {
+    height: 130px;
+  }
+}
+.card-header button {
+  border-radius: 5px;
+  background: #dc3545;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #fff;
+  border: 1px solid #dc3545;
+  float: right;
+  margin-top: 6px;
+}
+.showallfa {
+  color: #fff;
+  background: #dc3545;
+}
+/*.resendbutton {
+  //padding: 0.5rem 1rem;
+  //font-size: 0.8rem;
+  margin-right: 0px;
+}
+
+.viewbutton {
+  margin-right: -40px;
+}*/
+
+.editbutton {
+  margin-left: 60px;
+}
+.resendfa {
+  background: transparent;
+}
+.resendbutton:hover .resendfa {
+  color: #fff;
+}
+.viewfa {
+  background: transparent;
+}
+
+.viewbutton:hover .viewfa {
+  color: #fff;
+}
+.editfa {
+  background: transparent;
+}
+.editbutton:hover .editfa {
+  color: #fff;
+}
+thead tr {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  border: none;
+}
+
+thead th {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+tbody td {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: #222;
+  /*justify-content: center;
+  align-items: center;*/
+  vertical-align: middle;
+}
+.table-responsive {
+  width: 100%;
+  /*overflow-y: auto;*/
+}
+
+.cancelfa {
+  width: 30px;
+  height: 30px;
+  color: #dc3545;
+  background: transparent;
+}
+.cancelbutton {
+  border-radius: 25px;
+  background: white;
+  border: none;
+}
+.text-style {
+  font-weight: bold;
+  font-style: italic;
+}

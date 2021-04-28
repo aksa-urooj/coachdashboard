@@ -5,7 +5,7 @@ const Myorders = () => {
     <>
       <div className="col-xl-10 col-lg-10 col-md-9 mt-2 maincontent">
         <div className="col-12 p-3  headingbox">
-          <h3>My Orders</h3>
+          <h3>My Inventory</h3>
         </div>
         <div className="row dashblock p-4">
           <div className="card col-lg-3 col-md-10 mb-4">
@@ -22,8 +22,7 @@ const Myorders = () => {
                 <br />
                 <strong>Payment Method:</strong> <span>PayPal</span>
                 <br />
-              <button className="btn btn-outline-info ">Check Details</button>
-
+                <button className="btn btn-outline-info ">Check Details</button>
               </p>
             </div>
           </div>
@@ -42,8 +41,7 @@ const Myorders = () => {
                 <br />
                 <strong>Payment Method:</strong> <span>PayPal</span>
                 <br />
-              <button className="btn btn-outline-info ">Check Details</button>
-
+                <button className="btn btn-outline-info ">Check Details</button>
               </p>
             </div>
           </div>
@@ -62,8 +60,7 @@ const Myorders = () => {
                 <br />
                 <strong>Payment Method:</strong> <span>PayPal</span>
                 <br />
-              <button className="btn btn-outline-info ">Check Details</button>
-
+                <button className="btn btn-outline-info ">Check Details</button>
               </p>
             </div>
           </div>
@@ -82,12 +79,10 @@ const Myorders = () => {
                 <br />
                 <strong>Payment Method:</strong> <span>PayPal</span>
                 <br />
-              <button className="btn btn-outline-info ">Check Details</button>
-
+                <button className="btn btn-outline-info ">Check Details</button>
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </>

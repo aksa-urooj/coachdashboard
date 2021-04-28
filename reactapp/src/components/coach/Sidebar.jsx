@@ -4,7 +4,10 @@ import {
   FaList,
   FaSignOutAlt,
   FaShopify,
+  FaUsers,
+  FaExclamationCircle,
 } from "react-icons/fa";
+
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
@@ -35,22 +38,40 @@ const Sidebar = () => {
                 <NavLink
                   className="nav-link "
                   aria-current="page"
-                  to="/dashboard/home"
+                  to="/coachdashboard/home"
                 >
                   <FaHome className="reacticon" />
                   Dashboard
                 </NavLink>
               </li>
+
               <li className="nav-item">
-                <NavLink className="nav-link" to="/dashboard/myaccount">
+                <NavLink className="nav-link" to="/coachdashboard/myaccount">
                   <FaUser className="reacticon" />
                   My Account
                 </NavLink>
               </li>
+
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/coachdashboard/myclients">
+                  <FaUsers className="reacticon" />
+                  My Clients
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  to="/coachdashboard/pendinginvitations"
+                >
+                  <FaExclamationCircle className="reacticon" />
+                  Pending Invitations
+                </NavLink>
+              </li>
               <li className="nav-item ">
-                <NavLink className="nav-link " to="/dashboard/myorders">
+                <NavLink className="nav-link " to="/coachdashboard/myinventory">
                   <FaList className="reacticon" />
-                  My Orders{" "}
+                  My Inventory
                 </NavLink>
               </li>
 
