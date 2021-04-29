@@ -24,7 +24,8 @@ const Myclients = () => {
                     <th>Name</th>
                     <th>Email</th>
 
-                    <th colspan="3">Discovery</th>
+                    <th>Discovery</th>
+                    <th colspan="2">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -33,15 +34,19 @@ const Myclients = () => {
                     <td>aqsaurooj@gmail.com</td>
                     <td className="text-uppercase text-style">Right Way</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg  badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill viewbutton">
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -50,15 +55,20 @@ const Myclients = () => {
                     <td>nimraurooj@gmail.com</td>
                     <td className="text-uppercase text-style">Contribute</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill   viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -67,15 +77,20 @@ const Myclients = () => {
                     <td>nooreen@gmail.com</td>
                     <td className="text-uppercase text-style">Right Way</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill   viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -85,15 +100,20 @@ const Myclients = () => {
                     <td className="text-uppercase text-style">Mastery</td>
 
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary  btn-lg  badge rounded-pill  viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -102,15 +122,20 @@ const Myclients = () => {
                     <td>tufailmir@gmail.com</td>
                     <td className="text-uppercase text-style">Clarify</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill  editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary  btn-lg  badge rounded-pill  viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -120,15 +145,20 @@ const Myclients = () => {
                     <td className="text-uppercase text-style">Trust</td>
 
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary  btn-lg  badge rounded-pill  viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -138,15 +168,20 @@ const Myclients = () => {
                     <td className="text-uppercase text-style">Challenge</td>
 
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary  btn-lg  badge rounded-pill  viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -155,15 +190,20 @@ const Myclients = () => {
                     <td>mehroush@gmail.com</td>
                     <td className="text-uppercase text-style">Simplify</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill   viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -172,15 +212,20 @@ const Myclients = () => {
                     <td>farhatwani@gmail.com</td>
                     <td className="text-uppercase text-style">Contribute</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm  editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm   viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill   viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>
@@ -189,15 +234,20 @@ const Myclients = () => {
                     <td>bismafayaz@gmail.com</td>
                     <td className="text-uppercase text-style">Simplify</td>
                     <td>
-                      <button className="btn btn-secondary btn-sm  editbutton">
-                        Edit Discovery&nbsp;
-                        <FaEdit className="editfa" />
+                      <button className="btn btn-danger btn-lg badge rounded-pill  editbutton">
+                        <span>
+                          Edit Discovery&nbsp;
+                          <FaEdit className="editfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
-                      <button className="btn btn-primary btn-sm viewbutton">
-                        View Profile &nbsp;
-                        <FaUser className="viewfa" />
+                      <button className="btn btn-primary btn-lg  badge rounded-pill viewbutton">
+                        {" "}
+                        <span>
+                          View Profile &nbsp;
+                          <FaUser className="viewfa" />{" "}
+                        </span>
                       </button>
                     </td>
                   </tr>

@@ -24,7 +24,8 @@ const Pendinginvitations = () => {
                     <th>Name</th>
                     <th>Email</th>
                     <th>Course</th>
-                    <th colspan="3">Date</th>
+                    <th>Date</th>
+                    <th colspan="2">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -34,9 +35,11 @@ const Pendinginvitations = () => {
                     <td>Why</td>
                     <td>2021-04-29</td>
                     <td>
-                      <button className="  btn btn-outline-primary btn-sm resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className=" btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
 
@@ -55,9 +58,11 @@ const Pendinginvitations = () => {
                     <td>How</td>
                     <td>2021-04-29</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -75,9 +80,11 @@ const Pendinginvitations = () => {
                     <td>Why</td>
                     <td>2021-04-27</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -95,9 +102,11 @@ const Pendinginvitations = () => {
                     <td>What</td>
                     <td>2021-04-27</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -115,9 +124,11 @@ const Pendinginvitations = () => {
                     <td>How</td>
                     <td>2021-04-27</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -135,9 +146,11 @@ const Pendinginvitations = () => {
                     <td>Why</td>
                     <td>2021-04-26</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -155,9 +168,11 @@ const Pendinginvitations = () => {
                     <td>How</td>
                     <td>2021-04-26</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -175,9 +190,11 @@ const Pendinginvitations = () => {
                     <td>What</td>
                     <td>2021-04-26</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm   resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -195,9 +212,11 @@ const Pendinginvitations = () => {
                     <td>Why</td>
                     <td>2021-04-23</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className="btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>
@@ -215,9 +234,11 @@ const Pendinginvitations = () => {
                     <td>How</td>
                     <td>2021-04-22</td>
                     <td>
-                      <button className="btn btn-outline-primary btn-sm  resendbutton">
-                        Resend &nbsp;
-                        <FaArrowRight className="resendfa" />
+                      <button className=" btn btn-lg resendbutton badge rounded-pill bg-primary">
+                        <span>
+                          RESEND &nbsp;
+                          <FaArrowRight className="resendfa" />
+                        </span>
                       </button>
                     </td>
                     <td>

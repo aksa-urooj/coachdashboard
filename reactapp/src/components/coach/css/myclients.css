@@ -70,38 +70,81 @@ table {
   color: #fff;
   background: #dc3545;
 }
-/*.resendbutton {
-  //padding: 0.5rem 1rem;
-  //font-size: 0.8rem;
-  margin-right: 0px;
-}
-
-.viewbutton {
-  margin-right: -40px;
-}*/
 
 .editbutton {
-  margin-left: 60px;
+  width: 120px;
+  height: 35px;
+  margin-right: -10px !important;
+  background: #dc3545 !important;
 }
-.resendfa {
-  background: transparent;
-}
-.resendbutton:hover .resendfa {
-  color: #fff;
-}
-.viewfa {
-  background: transparent;
-}
-
-.viewbutton:hover .viewfa {
-  color: #fff;
+.editbutton span {
+  background: #dc3545;
+  font-size: 15px;
 }
 .editfa {
   background: transparent;
 }
+.editbutton:hover {
+  color: #fff !important;
+}
 .editbutton:hover .editfa {
   color: #fff;
 }
+.viewbutton {
+  /*padding: 0.5rem 1rem;
+  //font-size: 0.8rem;*/
+
+  margin-right: -10px !important;
+  width: 120px;
+  height: 35px;
+  background: #0d6efd !important;
+}
+.viewbutton span {
+  background: #0d6efd;
+  font-size: 15px;
+}
+.viewfa {
+  background: transparent;
+}
+.viewbutton:hover {
+  color: #fff !important;
+}
+.viewbutton:hover .viewfa {
+  color: #fff;
+}
+.resendbutton {
+  /*padding: 0.5rem 1rem;
+  //font-size: 0.8rem;*/
+  margin-right: -10px !important;
+  width: 90px;
+  height: 35px;
+}
+.resendbutton span {
+  background: #0d6efd;
+  font-size: 15px;
+}
+.resendfa {
+  background: transparent;
+}
+.resendbutton:hover {
+  color: #fff !important;
+}
+.resendbutton:hover .resendfa {
+  color: #fff;
+}
+.cancelfa {
+  width: 30px;
+  height: 30px;
+  color: #dc3545;
+  background: transparent;
+}
+.cancelbutton {
+  border-radius: 25px;
+  background: white;
+  border: none;
+  margin-right: -10px !important;
+}
+
 thead tr {
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
@@ -112,6 +155,7 @@ thead th {
   font-weight: 700;
   font-size: 1.3rem;
 }
+
 tbody td {
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
@@ -125,17 +169,6 @@ tbody td {
   /*overflow-y: auto;*/
 }
 
-.cancelfa {
-  width: 30px;
-  height: 30px;
-  color: #dc3545;
-  background: transparent;
-}
-.cancelbutton {
-  border-radius: 25px;
-  background: white;
-  border: none;
-}
 .text-style {
   font-weight: bold;
   font-style: italic;

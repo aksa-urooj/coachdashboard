@@ -17,6 +17,7 @@ const Home = () => {
         <div className="p-3 col-12 headingbox">
           <h3>Dashboard</h3>
         </div>
+
         <div className="row p-4">
           <div className="card card-outer col-xl-2.5  col-lg-3 col-md-10 col-12 mb-4">
             <div className="col-12">
@@ -25,9 +26,86 @@ const Home = () => {
                 <h2 className="invite">Invite People</h2>
               </span>
             </div>
-            <button type="button" class="btn btn-sm btn-danger mt-4 ">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger mt-4 mb-2"
+              data-bs-toggle="modal"
+              data-bs-target="#inviteModal"
+            >
               Invite Now
             </button>
+            <div
+              class="modal fade"
+              id="inviteModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      New Invitation
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="fullname" class="form-label">
+                          Name
+                        </label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="fullname"
+                          aria-describedby="nameHelp"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                          Email address
+                        </label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label for="course" class="form-label">
+                          Course
+                        </label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="course"
+                          aria-describedby="courseHelp"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Invite
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className=" card card-outer col-xl-2 col-lg-3 col-md-10 col-12 mb-4">

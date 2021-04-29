@@ -4,6 +4,7 @@ import VerificationMsg from "./components/VerificationMsg";
 import ForgotPassword from "./components/ForgotPassword";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import Modals from "./components/coach/Modals";
 const App = () => {
   return (
     <>
@@ -24,7 +25,8 @@ const App = () => {
           path="/accountverificationpage/:verifyresult"
           component={VerificationMsg}
         ></Route>
-        <Redirect to="/coachdashboard/home"></Redirect>
+        <Route path="/coachdashboard/Modals" component={Modals}></Route>
+        <Redirect to="/coachdashboard/Modals"></Redirect>
       </Switch>
     </>
   );
